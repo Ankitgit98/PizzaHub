@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizza Hub</title>
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+<body>
+
+    <div class="hero">
+        <div class="nav-bar">
+
+            <div class="nav-logo">
+                <img style="width: 50px; height:30;" src="Pizaalogo.png">
+            </div>
+
+
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="#">
+                        <li>RECIPE</li>
+
+                    </a>
+                </ul>
+                <button type="button" class="btn">SING UP</button>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>Food <span>Doesn't have a religion.</span> <br> It is religion</h1>
+            <button type="button" class="btn"> EXPLORE</button>
+
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="fa fa-list"></i>
+                <i class="fa fa-search"></i>
+
+
+            </div>
+            <div class="social-icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="notifications">
+            <div class="contents">
+                <small>Order a delicious pizza on the go, anywhere, anytime. 
+                    Pizza Hut is happy to assist you with your home delivery.</small>
+                <p><a href="">PREV</a> <a href="">NEXT</a></p>
+            </div>
+            <div class="notification-img">
+                <img src="bottom.jpg" alt="bottom-image">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        var show = document.getElementById("nav-links");
+
+        function showMenu() {
+            show.style.right = "0";
+        }
+
+        function closeMenu() {
+            show.style.right = "-200px";
+
+
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
